@@ -16,16 +16,21 @@ const StyledHeader = styled.div`
 		gap: 16px;
 	}
 `;
+const StyledBanner = styled.div`
+	background-image: url(${({ banner }) => banner});
+	height: 230px;
+`;
 
 export default function Header() {
 	return (
 		<StyledHeader>
-			{/* <img src="banner" /> */}
+			<StyledBanner banner={config.banner} />
 			<div className="user-info">
 				<img src={`https://github.com/${config.gitHub}.png`} />
 				<div>
 					<h2>{config.name}</h2>
 					<p>{config.job}</p>
+					<p>{config.description}</p>
 				</div>
 			</div>
 		</StyledHeader>

@@ -5,10 +5,6 @@ import config from '../config.json';
 import { CSSReset } from '../src/components/CSSReset';
 
 function HomePage() {
-	const estiloHomePage = {
-		//  background: 'red'
-	};
-
 	return (
 		<>
 			<CSSReset />
@@ -17,7 +13,6 @@ function HomePage() {
 					display: 'flex',
 					flexDirection: 'column',
 					flex: 1,
-					// backgroundColor: "red",
 				}}
 			>
 				<Header />
