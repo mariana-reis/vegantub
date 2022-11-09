@@ -1,0 +1,98 @@
+{
+	"name": "Mariana Silva",
+	"job": "Front End Developer",
+	"gitHub": "mariana-reis",
+	"playlists": {
+		"Documentários": [
+			{
+				"title": "EARTHLINGS (TERRÁQUEOS)",
+				"url": "https://www.youtube.com/watch?v=6SUBqrNilFU&t",
+				"thumb": "https://img.youtube.com/vi/ZGEVxc8vfzI/hqdefault.jpg"
+			},
+			{
+				"title": "Vegano Periférico │ Documentário completo",
+				"url": "https://www.youtube.com/watch?v=kr98MSULN9g",
+				"thumb": "https://img.youtube.com/vi/kr98MSULN9g/hqdefault.jpg"
+			},
+			{
+				"title": "COMER VAI NOS LEVAR À EXTINÇÃO | Documentário Oficial",
+				"url": "https://www.youtube.com/watch?v=3rziZBnZQrA",
+				"thumb": "https://img.youtube.com/vi/3rziZBnZQrA/hqdefault.jpg"
+			},
+			{
+				"title": "A CARNE É FRACA (HD)",
+				"url": "https://www.youtube.com/watch?v=rrFsGTw5bCw",
+				"thumb": "https://img.youtube.com/vi/rrFsGTw5bCw/hqdefault.jpg"
+			},
+			{
+				"title": "Dominion (Domínio) | Legendado",
+				"url": "https://www.youtube.com/watch?v=PZO04lrg0rs",
+				"thumb": "https://img.youtube.com/vi/PZO04lrg0rs/hqdefault.jpg"
+			},
+			{
+				"title": "WHAT THE HEALTH (O QUE É SAUDE)",
+				"url": "https://www.youtube.com/watch?v=NoYINMgImGs",
+				"thumb": "https://img.youtube.com/vi/NoYINMgImGs/hqdefault.jpg"
+			},
+			{
+				"title": "Cowspirancy",
+				"url": "https://www.youtube.com/watch?v=5ATRlfHSgHM&t=41s",
+				"thumb": "https://img.youtube.com/vi/5ATRlfHSgHM/hqdefault.jpg"
+			},
+			{
+				"title": "Seaspiracy | Official Trailer | Netflix",
+				"url": "https://www.youtube.com/watch?v=1Q5CXN7soQg",
+				"thumb": "https://img.youtube.com/vi/1Q5CXN7soQg/hqdefault.jpg"
+			}
+		],
+		"Dicas": [
+			{
+				"title": "5 MOTIVOS PARA SER VEGANO",
+				"url": "https://www.youtube.com/watch?v=0JZhtA6XsFs",
+				"thumb": "https://img.youtube.com/vi/0JZhtA6XsFs/hqdefault.jpg"
+			},
+			{
+				"title": "VEGANISMO E VEGETARIANISMO: dicas, diferenças e transição | Louie Ponto",
+				"url": "https://www.youtube.com/watch?v=kIaGAv9R-14",
+				"thumb": "https://img.youtube.com/vi/kIaGAv9R-14/hqdefault.jpg"
+			},
+			{
+				"title": "Quer saber sobre veganismo?",
+				"url": "https://www.youtube.com/watch?v=dDvOnd4YVcc",
+				"thumb": "https://img.youtube.com/vi/dDvOnd4YVcc/hqdefault.jpg"
+			},
+			{
+				"title": "O que acontece com seu corpo ao virar vegano",
+				"url": "https://www.youtube.com/watch?v=ykyYTuMwuV4",
+				"thumb": "https://img.youtube.com/vi/ykyYTuMwuV4/hqdefault.jpg"
+			},
+			{
+				"title": "5 motivos pouco explorados para virar vegano",
+				"url": "https://www.youtube.com/watch?v=ucBbl61kALU",
+				"thumb": "https://img.youtube.com/vi/ucBbl61kALU/hqdefault.jpg"
+			},
+			{
+				"title": "A História do Veganismo",
+				"url": "https://www.youtube.com/watch?v=l5Fz2a_x4tA",
+				"thumb": "https://img.youtube.com/vi/l5Fz2a_x4tA/hqdefault.jpg"
+			},
+			{
+				"title": "VEGANISMO: PROTEÍNAS, VITAMINA B12 E CÁLCIO | bate-papo com Thaisa Navolar | Louie Ponto",
+				"url": "https://www.youtube.com/watch?v=_VjsP-6JxP0",
+				"thumb": "https://img.youtube.com/vi/_VjsP-6JxP0/hqdefault.jpg"
+			}
+		],
+		"Receitas": [
+			{
+				"title": "ALMOÇO VEGANO FÁCIL PRO DIA A DIA",
+				"url": "https://www.youtube.com/watch?v=J0stHZUEmO4",
+				"thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+			},
+			{
+				"title": "9 MARMITAS VEGANAS FÁCEIS E ACESSÍVEIS PARA A SEMANA | TNM Vegg",
+				"url": "https://www.youtube.com/watch?v=IXzVUKrZvh0",
+				"thumb": "https://img.youtube.com/vi/IXzVUKrZvh0/hqdefault.jpg"
+			}
+		]
+	}
+}
