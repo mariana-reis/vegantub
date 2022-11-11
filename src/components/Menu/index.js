@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Search from './components/Search';
 
 const StyledMenu = styled.header`
 	display: flex;
@@ -24,12 +25,13 @@ const StyledMenu = styled.header`
 	}
 `;
 
-export default function Menu() {
+export default function Menu({ valorDoFiltro, setValorDofiltro }) {
 	return (
 		<StyledMenu>
 			<div>
 				<Logo />
 			</div>
+			<Search valorDoFiltro={valorDoFiltro} setValorDofiltro={setValorDofiltro} />
 		</StyledMenu>
 	);
 }
@@ -44,7 +46,7 @@ function Logo() {
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 		>
-			<g clip-path="url(#clip0_3015_84)">
+			<g clipPath="url(#clip0_3015_84)">
 				<path
 					d="M40.1558 5.20559C39.6827 3.26234 38.298 1.73016 36.5419 1.20698C33.3336 0.235351 20.5 0.235352 20.5 0.235352C20.5 0.235352 7.66637 0.235351 4.45799 1.1696C2.73558 1.69279 1.31713 3.26234 0.844315 5.20559C0 8.75575 0 16.1177 0 16.1177C0 16.1177 0 23.517 0.844315 27.0298C1.31713 28.9731 2.70181 30.5052 4.45799 31.0284C7.70016 32.0001 20.5 32.0001 20.5 32.0001C20.5 32.0001 33.3336 32.0001 36.5419 31.0658C38.298 30.5426 39.6827 29.0104 40.1558 27.0672C40.9998 23.517 40.9998 16.1551 40.9998 16.1551C40.9998 16.1551 41.0336 8.75575 40.1558 5.20559Z"
 					fill="#00BF36"

@@ -7,6 +7,7 @@ export const StyledTimeline = styled.div`
 	width: 100%;
 	padding: 16px;
 	overflow: hidden;
+	background: #f9f9f9;
 	h2 {
 		font-size: 16px;
 		margin-bottom: 16px;
@@ -50,7 +51,7 @@ export const StyledTimeline = styled.div`
 	}
 `;
 
-export default function TimeLine(props) {
+export default function TimeLine({ searchValue, ...props }) {
 	const playlistsNames = Object.keys(props.playlists);
 	//Statment
 	//retorno por expressão
@@ -59,19 +60,25 @@ export default function TimeLine(props) {
 			{playlistsNames.map((playlistsName) => {
 				const videos = props.playlists[playlistsName];
 				return (
-					<section>
+					<section key={playlistsName}>
 						<h2>{playlistsName}</h2>
 						<div>
-							{videos.map((video) => {
-								return (
-									<a href={video.url}>
-										<img src={video.thumb} />
-										<strong>
-											<span>{video.title}</span>
-										</strong>
-									</a>
-								);
-							})}
+							{videos
+								.filter((video) => {
+									const titleNormalized = video.title.toLowerCase();
+									const searchValueNormalized = searchValue.toLowerCase();
+									return titleNormalized.includes(searchValueNormalized);
+								})
+								.map((video) => {
+									return (
+										<a key={video.url} href={video.url} target="blank">
+											<img src={video.thumb} />
+											<strong>
+												<span>{video.title}</span>
+											</strong>
+										</a>
+									);
+								})}
 						</div>
 					</section>
 				);
