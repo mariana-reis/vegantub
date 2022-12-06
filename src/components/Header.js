@@ -2,6 +2,7 @@ import config from '../../config.json';
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
+	background-color: ${({ theme }) => theme.backgroundLevel1};
 	img {
 		width: 80px;
 		height: 80px;
@@ -29,7 +30,7 @@ export default function Header() {
 	return (
 		<StyledHeader>
 			<StyledBanner banner={config.banner} />
-			<div className="user-info">
+			<section className="user-info">
 				<img src={`https://github.com/${config.gitHub}.png`} />
 				<div>
 					<h2>{config.name}</h2>
@@ -39,7 +40,7 @@ export default function Header() {
 						<Icon />
 					</p>
 				</div>
-			</div>
+			</section>
 		</StyledHeader>
 	);
 }

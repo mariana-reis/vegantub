@@ -7,7 +7,6 @@ export const StyledTimeline = styled.div`
 	width: 100%;
 	padding: 16px;
 	overflow: hidden;
-	background: #f9f9f9;
 	h2 {
 		font-size: 16px;
 		margin-bottom: 16px;
